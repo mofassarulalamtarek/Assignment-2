@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared style */
+.display-flex{
+    display: flex;
+    
+}
+.bg-gradient{
+    background-color: rgba(17, 17, 17, 1);
+}
+.text-white{
+    color: #FFFFFF;
+}
+.home-btn{
+    background-color: #E6533C;
+    color: white;
+    font-size: 1rem;
+    border-radius: 46px;
+    padding: 8px 20px;
+
+
+}
+
+
+/* navbar style */
+.navbar{
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+nav{
+    margin-top: 57px;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;    
+}
+.nav-item{
+    list-style: none;
+    margin-right: 47px;
+
+}
+.nav-links{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 12px 4px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.brand{
+    color: #E6533C;
+    font-weight: 800;
+    font-size: 3rem;
+    font-style: italic;
+}
