@@ -208,5 +208,47 @@ nav{
 .circle p{
     margin: 0;
     color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 80px;
+    margin-bottom: 120px;
+}
+
+/* run-extra-section */
+.run-extra-section{
+    background-color: black;
+
+}
+.run-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+.text-content{
+    flex: 1;
+    margin-right: 20px;
+    padding-left: 54px;
+    padding-right: 54px;
+
+}
+.text-content h1{
+    font-size: 3rem;
+    margin:  0 0 20px 0;
+}
+.text-content p{
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.img-content{
+    flex: 1;
+}
+
+.img-content img{
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto;
 }
