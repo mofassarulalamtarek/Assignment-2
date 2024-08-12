@@ -39,7 +39,7 @@
     color: white;
     font-size: 1rem;
     border-radius: 46px;
-    padding: 8px 40px;
+    padding: 12px 40px;
 
 }
 .secondary-btn{
@@ -48,7 +48,7 @@
     color: white;
     font-size: 1rem;
     border-radius: 46px;
-    padding: 8px 40px;
+    padding: 12px 40px;
 }
 .margin-bottom{
     margin-bottom: 28px;
@@ -251,4 +251,95 @@ nav{
     max-width: 100%;
     border-radius: 10px;
     height: auto;
+}
+
+/* bmi-section */
+.bmi-section{
+    background-color: black;
+}
+.bmi-container{
+    max-width: 660px;
+    margin: 0 auto;
+    color: white;
+    padding: 20px;
+    
+}
+.bmi-container h1{
+    font-size: 3rem;
+    margin:  80px 0 20px 0;
+}
+.bmi-container p{
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* bmi-calculator-section */
+.bmi-calculator-section{
+    background-color: #222222;
+}
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 70px;
+}
+.bmi-chart{
+    margin: 0 20px;
+    /* width: 30%; */
+}
+.bmi-calculator{
+    margin: 0 30px;
+    width: 60%;
+    margin-top: 65px;
+}
+.bmi-calculator >p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi-chart h2, .bmi-calculator h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+table,th, td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: center;
+}
+.th, td{
+    color: rgba(255, 255, 255, 0.5);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.5);
+}
+input, select{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.first-input >.first-1,.first-2{
+    width: 45%;
+}
+.second-input >.second-1{
+    width: 45%;
+}
+.second-2{
+    width: 48%;
+}
+.third-input >.third-1{
+    width: 97%;
+    margin-bottom: 30px;
 }
