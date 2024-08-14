@@ -547,3 +547,118 @@ input, select{
     margin-top: 20px;
 }
 
+/* responsive design */
+
+/* small device OR Mobile Device*/
+@media screen and (max-width:576px){
+    .nav-links{
+        display: none;
+    }
+    .brand{
+        padding-left: 30px;
+    }
+    .hero{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .info-section {
+        margin-top: -40px;
+        width: 100%;
+    }
+    .hero-section-title {
+        font-size: 3.5rem;
+        /* line-height: 120%;
+        margin-bottom: 28px; */
+    }
+    .img-section {
+        width: 100%;
+    }
+    #tutorial-video-2 {
+        font-size: 1rem;
+        margin-left: 260px;
+    }
+    .circles {
+        flex-direction: column;
+    }
+    .circle p {
+        margin-bottom: 80px;
+    }
+    .circle img {
+        width: 200px;
+        height: 200px;
+    }
+    .run-container{
+        flex-direction: column;
+    }
+    .primary-btn {
+        margin-bottom: 40px;
+    }
+    .img-content img {
+        max-width: 80%;
+    }
+    .img-content {
+        text-align: center;
+    }
+    .text-content> .primary-btn{
+        padding: 18px 140px;
+        font-size: 16px;
+        font-weight: 550;
+    }
+    .bmi-container {
+        padding: 30px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .bmi-chart {
+        width: 88%;
+        margin-top: 20px;
+    }
+    .bmi-calculator {
+        width: 87%;
+        margin-top: 25px;
+    }
+    .team-section{
+        padding-bottom: 0px;
+    }
+    .team-container {
+        padding: 40px;
+    }
+    .team-member img {
+        border-radius: 18px;
+    }
+    .our-team{
+        gap: 13px;
+        border-radius: 18px;
+    }
+    .name {
+        margin-top: -85px;
+    }
+    .team-member h3 {
+        font-size: 25px;
+    }
+    .pricing-continer h1 {
+        font-size: 1.9rem;
+    }
+    .pricing-cards {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .footer-content {
+        flex-direction: column;
+        padding-left: 30px;
+    }
+    .footer-brand {
+        width: 88%;
+    }
+    .footer-links {
+        flex-direction: column;
+        display: flex;
+        width: 45%;
+        gap: 10px;
+    }
+    
+}
+/* medium size device */
+@media screen and (min-width:576px) and (max-width:992px) {
+}
